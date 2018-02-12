@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BBEA16420173A3200E19FA4 /* ATNChessRules.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBEA16320173A3200E19FA4 /* ATNChessRules.m */; };
+		2BBEA16720175C5700E19FA4 /* ATNChess.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBEA16620175C5700E19FA4 /* ATNChess.m */; };
 		2BC50C4E2011CB1000D04945 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC50C4D2011CB1000D04945 /* AppDelegate.m */; };
 		2BC50C512011CB1000D04945 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC50C502011CB1000D04945 /* ViewController.m */; };
 		2BC50C542011CB1000D04945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BC50C522011CB1000D04945 /* Main.storyboard */; };
@@ -47,6 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BBEA16220173A3200E19FA4 /* ATNChessRules.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATNChessRules.h; sourceTree = "<group>"; };
+		2BBEA16320173A3200E19FA4 /* ATNChessRules.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATNChessRules.m; sourceTree = "<group>"; };
+		2BBEA16520175C5700E19FA4 /* ATNChess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATNChess.h; sourceTree = "<group>"; };
+		2BBEA16620175C5700E19FA4 /* ATNChess.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATNChess.m; sourceTree = "<group>"; };
 		2BC50C492011CB1000D04945 /* ATNChess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATNChess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BC50C4C2011CB1000D04945 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2BC50C4D2011CB1000D04945 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -118,6 +124,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BBEA161201739D300E19FA4 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				2BBEA16220173A3200E19FA4 /* ATNChessRules.h */,
+				2BBEA16320173A3200E19FA4 /* ATNChessRules.m */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
 		2BC50C402011CB1000D04945 = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +156,7 @@
 		2BC50C4B2011CB1000D04945 /* ATNChess */ = {
 			isa = PBXGroup;
 			children = (
+				2BBEA161201739D300E19FA4 /* Handler */,
 				2BC50C852011DB0100D04945 /* Masonry */,
 				2BC50C7F2011CD9200D04945 /* Pieces */,
 				2BC50C4C2011CB1000D04945 /* AppDelegate.h */,
@@ -186,6 +202,8 @@
 		2BC50C802011CD9200D04945 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2BBEA16520175C5700E19FA4 /* ATNChess.h */,
+				2BBEA16620175C5700E19FA4 /* ATNChess.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -368,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BC50CA32011DB0200D04945 /* MASConstraintMaker.m in Sources */,
+				2BBEA16420173A3200E19FA4 /* ATNChessRules.m in Sources */,
 				2BC50C842011CDDA00D04945 /* ATNChessPieceView.m in Sources */,
 				2BC50C512011CB1000D04945 /* ViewController.m in Sources */,
 				2BC50CA22011DB0200D04945 /* MASConstraint.m in Sources */,
@@ -380,6 +399,7 @@
 				2BC50C5C2011CB1000D04945 /* main.m in Sources */,
 				2BC50C4E2011CB1000D04945 /* AppDelegate.m in Sources */,
 				2BC50CA12011DB0200D04945 /* MASCompositeConstraint.m in Sources */,
+				2BBEA16720175C5700E19FA4 /* ATNChess.m in Sources */,
 				2BC50CA82011DB0200D04945 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

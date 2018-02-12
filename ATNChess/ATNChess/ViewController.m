@@ -37,7 +37,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    UIImage *chessBoardImage = [UIImage imageNamed:@"ChessBoard.png"];
+    UIImageView *imgView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
+    imgView.image = chessBoardImage;
+    [self.view addSubview:imgView];
     [self.view addSubview:self.chessView];
     [self updateViewConstraints];
 //    [self.chessView mas_makeConstraints:^(MASConstraintMaker *make) {

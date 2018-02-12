@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ATNChessPieceView : UIView
+@interface ATNChessPieceView : UIButton
 
 /**
  判断棋子的选中状态
@@ -28,4 +28,6 @@
  y
  */
 @property (nonatomic,assign) CGFloat y;
+
+
 @end

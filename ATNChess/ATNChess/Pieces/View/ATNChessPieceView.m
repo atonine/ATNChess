@@ -10,6 +10,8 @@
 
 
 @implementation ATNChessPieceView
-
+-(UIButtonType)buttonType{
+    return UIButtonTypeCustom;
+}
 
 @end
